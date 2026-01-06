@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+.vscode/
+
+*.sh
+
+datasets/XACLE_dataset
+
+chkpt
+models/portable_m2d.py
+pretrained_models
+cfg
+hf_cache
+.venv

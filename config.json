@@ -1,0 +1,47 @@
+{
+    "train_list": "./datasets/XACLE_dataset/meta_data/train_screened_5_standard_average_zscore_251231.csv",
+    "validation_list": "./datasets/XACLE_dataset/meta_data/validation_screened_5_standard_average_zscore_251231.csv",
+    "test_list": "./datasets/XACLE_dataset/meta_data/test_average.csv",
+    "wav_dir": "./datasets/XACLE_dataset/wav",
+    "output_dir": "./chkpt",
+    "batch_size": 32,
+    "val_batch_size": 1,
+    "lr": 0.0001,
+    "lr_peak_epoch": 0,
+    "num_workers": 1,
+    "epochs": 50,
+    "max_len": 10,
+    "early_stop_patience": 20,
+    "seed": 3,
+    "device": "cuda",
+    "loss": {
+        "loss_weights": [
+            1.0,
+            0.5
+        ],
+        "clipped_mse": {
+            "tau": 0,
+            "mode": "utt",
+            "beta": 0.99,
+            "cbl": false
+        },
+        "contrastive": {
+            "margin": 0.1,
+            "beta": 0.99,
+            "cbl": false
+        }
+    },
+    "model": {
+        "train_standard_stats": {
+            "mean": 7.06188530269935,
+            "std": 3.0082278564578324
+        }
+    },
+    "audio_encoder": {
+        "sample_rate": 16000
+    },
+    "clap_encoder": {
+        "pretrained_model": "pretrained_models/m2d_clap_vit_base-80x1001p16x16p16kpBpTI-2025/checkpoint-30.pth",
+        "freeze": false
+    }
+}
