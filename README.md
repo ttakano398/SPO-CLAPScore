@@ -107,7 +107,15 @@ python evaluate.py \
 
 ## Citation
 ```
-TBW
+@misc{takano2026spoclapscoreenhancingclapbasedalignment,
+      title={SPO-CLAPScore: Enhancing CLAP-based alignment prediction system with Standardize Preference Optimization, for the first XACLE Challenge}, 
+      author={Taisei Takano and Ryoya Yoshida},
+      year={2026},
+      eprint={2601.02900},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2601.02900}, 
+}
 ```
 
 ## Acknowledgement
