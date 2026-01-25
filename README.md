@@ -1,4 +1,6 @@
 # SPO-CLAPScore
+[![arXiv](https://img.shields.io/badge/arXiv-2601.02900-b31b1b.svg)](https://arxiv.org/abs/2601.02900)
+
 This repository contains the implementation for the "Takano\_UTokyo\_03" system submitted to the first XACLE Challenge.
 <!-- <div align="center">
   <img src="pics/proposed_v02.png" width="100%">
@@ -11,6 +13,8 @@ This repository contains the implementation for the "Takano\_UTokyo\_03" system 
   <br>
   <em>Fig. Standard Preference Optimization (SPO)</em>
 </div>
+
+
 
 ## Abstract
 
